@@ -26,12 +26,8 @@ public class Ruin {
 				double rdn = Math.random();
 				if (rdn <= winChance) {
 					currentAmount ++;
-					// System.out.println(rdn);
-					// System.out.println("Win!");
 				} else {
 					currentAmount --;
-					// System.out.println(rdn);
-					// System.out.println("Lose :(");
 				}
 				gambleTimes ++;
 			}
